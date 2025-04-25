@@ -1,4 +1,4 @@
-import { FooterData } from '../Shared/Consts';
+// import { FooterData } from '../Shared/Consts';
 import ContactDiv from './ContactDiv';
 
 const Footer = () => {
@@ -18,9 +18,9 @@ const Footer = () => {
           <div>
             <p className="font-bold text-lg">Departments</p>
             <ul>
-              {FooterData.departments.map((department, index) => (
+              {/* {FooterData.departments.map((department, index) => (
                 <li key={index}>{department}</li>
-              ))}
+              ))} */}
             </ul>
           </div>
           <ul>
