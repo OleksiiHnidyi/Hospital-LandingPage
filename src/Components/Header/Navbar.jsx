@@ -7,6 +7,12 @@ import useMediaQuery from '@/Hooks/useMediaQuery';
 import Links from './Links';
 import Button from '../UI/Button';
 
+type Props = {
+  flexBetween: string;
+  selectedPage: SelectedPage;
+  setSelectedPage: (value: SelectedPage) => void;
+};
+
 const NavBar = ({ flexBetween, selectedPage, setSelectedPage }: Props) => {
   const [isMenuToggled, setIsMenuToggled] = useState<boolean>(false);
   const isAboveMediumScreens = useMediaQuery('(min-width: 900px)');
