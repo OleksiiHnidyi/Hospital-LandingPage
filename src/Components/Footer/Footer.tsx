@@ -7,11 +7,6 @@ const Footer = () => {
       <div className="max-w-[1250px] m-auto flex justify-center gap-14 flex-wrap md:flex-nowrap">
         <div className="font-bold">
           <img width={50} src={FooterData.logo} alt="Logo" />
-          {FooterData.addresses.map((address, index) => (
-            <p className="my-3" key={index}>
-              {address}
-            </p>
-          ))}
           <p>{FooterData.phone}</p>
         </div>
         <div className="flex gap-10">
