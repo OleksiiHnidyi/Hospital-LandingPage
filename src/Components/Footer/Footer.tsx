@@ -29,7 +29,6 @@ const Footer = () => {
             ))}
           </ul>
         </div>
-        <ContactDiv />
       </div>
     </div>
   );
