@@ -18,6 +18,8 @@ const Header = () => {
       }
       if (window.scrollY !== 0) setIsTopOfPage(false);
     };
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
   return (
