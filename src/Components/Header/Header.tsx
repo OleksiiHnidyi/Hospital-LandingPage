@@ -29,11 +29,6 @@ const Header = () => {
       } transition fixed top-0 z-30 w-full p-5 md:px-16`}
     >
       <img className="w-10 sm:w-20" src={Logo} alt="Logo" />
-      <NavBar
-        flexBetween={flexBetween}
-        selectedPage={selectedPage}
-        setSelectedPage={setSelectedPage}
-      />
     </div>
   );
 };
