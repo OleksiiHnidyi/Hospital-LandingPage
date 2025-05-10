@@ -11,12 +11,7 @@ const Links = ({ selectedPage, setSelectedPage }: Props) => {
   return (
     <>
       {links.map((link) => (
-        <Link
-          key={link}
-          page={link}
-          selectedPage={selectedPage}
-          setSelectedPage={setSelectedPage}
-        />
+        
       ))}
     </>
   );
