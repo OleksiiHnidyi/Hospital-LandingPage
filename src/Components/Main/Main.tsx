@@ -1,4 +1,5 @@
 import Home from '@/Components/Main/Home/Home';
+import Services from './Services/Services';
 import Doctors from './Doctors/Doctors';
 import Reviews from './Review/Reviews';
 
