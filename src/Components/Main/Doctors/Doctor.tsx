@@ -1,4 +1,10 @@
-
+type Props = {
+  doc: {
+    img: string;
+    name: string;
+    job: string;
+  };
+};
 
 const Doctor = ({ doc }: Props) => {
   return (
